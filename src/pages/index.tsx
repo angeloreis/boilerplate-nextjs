@@ -6,8 +6,6 @@ type Props = {
   title: string
 }
 
-const blameition = 'variation'
-
 export default function Home({
   title = 'React Avançado - Angelo Reis'
 }: Props) {
