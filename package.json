@@ -7,15 +7,23 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
+    "lint:staged": "lint-staged",
+    "tsc": "tsc --build ./tsconfig.json --pretty",
     "postinstall": "husky install",
     "test": "jest",
-    "test:watch": "yarn test --watch",
-    "prepare": "husky install"
+    "test:watch": "yarn test --watch"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn lint:staged",
+      "pre-push": "yarn tsc",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "lint-staged": {
     "src/**/*": [
@@ -31,6 +39,8 @@
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-typescript": "^7.13.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@types/jest": "^26.0.23",
