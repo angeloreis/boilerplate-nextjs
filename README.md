@@ -2,6 +2,7 @@
 ![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
+
 ![building](https://img.shields.io/github/workflow/status/angeloreis/biolerplate-nextjs/ci)
 ![ci](https://github.com/angeloreis/biolerplate-nextjs/workflows/ci/badge.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/angeloreis/biolerplate-nextjs/develop)
