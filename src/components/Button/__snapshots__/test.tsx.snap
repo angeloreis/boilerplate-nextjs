@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[
+  `Testing default button render an button with alert class and width 210px and text say Alert: test procced 1`
+] = `
+.c0 {
+  min-width: 13.12rem;
+  width: 210px;
+  padding: 2rem 6rem;
+  cursor: pointer;
+  background: #fa9806;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  -webkit-transition: 0.2s ease background;
+  transition: 0.2s ease background;
+}
+
+.c0:hover {
+  background: #ffb006;
+}
+
+<button
+  class="c0"
+  width="210px"
+>
+  Alert: test procced
+</button>
+`
+
+exports[
+  `Testing default button render an button with disable class and text say Operation suspended 1`
+] = `
+.c0 {
+  min-width: 13.12rem;
+  width: 100%;
+  padding: 2rem 6rem;
+  cursor: pointer;
+  background: #dddddd;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  -webkit-transition: 0.2s ease background;
+  transition: 0.2s ease background;
+}
+
+.c0:disabled {
+  background: #dddddd;
+  opacity: 0.5;
+  cursor: not-allowed;
+  border: 1px dashed white;
+}
+
+.c0:hover {
+  background: #cccccc;
+}
+
+<button
+  class="c0"
+  disabled=""
+  width="100%"
+>
+  Operation suspended
+</button>
+`
+
+exports[
+  `Testing default button should render a primary button with width 210px and text Text of Test 1`
+] = `
+.c0 {
+  min-width: 13.12rem;
+  width: 210px;
+  padding: 2rem 6rem;
+  cursor: pointer;
+  background: #004e9a;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  -webkit-transition: 0.2s ease background;
+  transition: 0.2s ease background;
+}
+
+.c0:hover {
+  background: #0B5394;
+}
+
+<button
+  class="c0"
+  width="210px"
+>
+  Text of Test
+</button>
+`
