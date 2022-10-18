@@ -30,6 +30,9 @@
     "styled-components": "5.3.5"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-controls": "^6.5.12",
+    "@storybook/addon-docs": "^6.5.12",
     "@storybook/addon-essentials": "6.5.10",
     "@storybook/builder-webpack5": "^6.5.10",
     "@storybook/manager-webpack5": "^6.5.12",
