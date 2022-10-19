@@ -12,8 +12,8 @@
     "test:ci": "jest --runInBand",
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -s public",
-    "serve-storybook": "serve storyboook-static",
+    "build-storybook": "build-storybook",
+    "serve-storybook": "npx serve ./storybook-static",
     "postinstall": "husky install",
     "prepare": "husky install"
   },
