@@ -8,6 +8,18 @@ exports[
   width: 210px;
   padding: 2rem 6rem;
   cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #fa9806;
   color: white;
   border-radius: 5px;
@@ -21,10 +33,30 @@ exports[
   background: #ffb006;
 }
 
+.c0 div {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 <button
   class="c0"
   width="210px"
 >
+  <div>
+    <svg
+      fill="currentColor"
+      height="18"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 192 512"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M176 432c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80zM25.26 25.199l13.6 272C39.499 309.972 50.041 320 62.83 320h66.34c12.789 0 23.331-10.028 23.97-22.801l13.6-272C167.425 11.49 156.496 0 142.77 0H49.23C35.504 0 24.575 11.49 25.26 25.199z"
+      />
+    </svg>
+  </div>
   Alert: test procced
 </button>
 `
@@ -37,6 +69,18 @@ exports[
   width: 100%;
   padding: 2rem 6rem;
   cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #dddddd;
   color: white;
   border-radius: 5px;
@@ -57,11 +101,17 @@ exports[
   background: #cccccc;
 }
 
+.c0 div {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 <button
   class="c0"
   disabled=""
   width="100%"
 >
+  <div />
   Operation suspended
 </button>
 `
@@ -74,6 +124,18 @@ exports[
   width: 210px;
   padding: 2rem 6rem;
   cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #004e9a;
   color: white;
   border-radius: 5px;
@@ -87,10 +149,16 @@ exports[
   background: #0B5394;
 }
 
+.c0 div {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 <button
   class="c0"
   width="210px"
 >
+  <div />
   Text of Test
 </button>
 `

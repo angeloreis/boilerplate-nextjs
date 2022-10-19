@@ -29,6 +29,10 @@ export const ButtonDefault = styled.button<ButtonProps>`
   padding: 2rem 6rem;
   cursor: pointer;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   ${({ classType }) =>
     classType === 'disable'
       ? css`
@@ -51,5 +55,10 @@ export const ButtonDefault = styled.button<ButtonProps>`
 
   :hover {
     background: ${({ classType }) => bgColorButtonHover[classType]};
+  }
+
+  div {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 `

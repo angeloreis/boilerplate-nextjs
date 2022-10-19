@@ -14,6 +14,11 @@ export default {
       name: 'width',
       control: { type: 'text' }
     },
+    isLoading: {
+      name: 'is loading state',
+      options: [true, false],
+      control: { type: 'inline-radio' }
+    },
     textOfButton: {
       name: 'text of button',
       control: { type: 'text' }
@@ -31,5 +36,6 @@ export const Default: Story = Template.bind({})
 Default.args = {
   classType: 'primary',
   width: '100%',
-  textOfButton: 'Default text'
+  textOfButton: 'Default text',
+  isLoading: false
 }
