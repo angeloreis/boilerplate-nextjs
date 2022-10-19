@@ -12,7 +12,8 @@
     "test:ci": "jest --runInBand",
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -s public",
+    "serve-storybook": "serve storyboook-static",
     "postinstall": "husky install",
     "prepare": "husky install"
   },
@@ -27,9 +28,13 @@
     "next-pwa": "^5.5.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.6.0",
     "styled-components": "5.3.5"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-controls": "^6.5.12",
+    "@storybook/addon-docs": "^6.5.12",
     "@storybook/addon-essentials": "6.5.10",
     "@storybook/builder-webpack5": "^6.5.10",
     "@storybook/manager-webpack5": "^6.5.12",
