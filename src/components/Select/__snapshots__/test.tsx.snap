@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> should render the heading 1`] = `
+.c0 {
+  border-radius: 5px;
+  padding: 2rem 1rem;
+  font-size: 1.8rem;
+  min-width: 128px;
+  width: 100%;
+  max-width: 512px;
+}
+
+<select
+  class="c0"
+  placeholder="Escolha uma opção..."
+>
+  <option
+    value="initial"
+  >
+    Escolha uma opção...
+  </option>
+  <option
+    value="Audi V3"
+  >
+    Audi V3 1999
+  </option>
+  <option
+    value="Audi V4"
+  >
+    Audi V4 2000
+  </option>
+  <option
+    value="Audi V4.1"
+  >
+    Audi V3 2000/2001
+  </option>
+  <option
+    value="Audi V5"
+  >
+    Audi V3 2001
+  </option>
+</select>
+`
