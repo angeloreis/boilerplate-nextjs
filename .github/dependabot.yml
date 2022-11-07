@@ -4,7 +4,7 @@ updates:
   directory: "/"
   schedule:
     interval: "monthly"
-  target-banch: "develop"
+  target-branch: "develop"
   open-pull-requests-limit: 10
   ignore:
   - dependency-name: "@types/node"
