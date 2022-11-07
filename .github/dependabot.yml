@@ -2,9 +2,9 @@ version: 2
 updates:
 - package-ecosystem: npm
   directory: "/"
-  target-banch: "develop"
   schedule:
     interval: "monthly"
+  target-banch: "develop"
   open-pull-requests-limit: 10
   ignore:
   - dependency-name: "@types/node"
